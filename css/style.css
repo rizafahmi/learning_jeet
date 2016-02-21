@@ -1,0 +1,43 @@
+* {
+  background: rgba(0,0,0,0.05);
+}
+aside {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 29.33333333333333%;
+  margin-left: 0%;
+  margin-right: 6%;
+}
+aside:before,
+aside:after {
+  content: '';
+  display: table;
+}
+aside:after {
+  clear: both;
+}
+aside:last-child {
+  margin-right: 0%;
+}
+article {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 64.66666666666666%;
+  margin-left: 0%;
+  margin-right: 6%;
+}
+article:before,
+article:after {
+  content: '';
+  display: table;
+}
+article:after {
+  clear: both;
+}
+article:last-child {
+  margin-right: 0%;
+}
